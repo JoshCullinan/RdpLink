@@ -13,9 +13,6 @@ include_directories(${ONNX_RUNTIME_DIR}/include)
 # Link directories
 link_directories(${ONNX_RUNTIME_DIR}/lib)
 
-# Add executables
-add_executable(helloworld helloworld.cpp)
-
 add_executable(tester tester.cpp)
 
 add_executable(PSNN PSNN.cpp)
